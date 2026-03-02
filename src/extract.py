@@ -34,6 +34,7 @@ def extract_data(file_path):
         print(f"An error occurred during extraction: {e}")
         return None
 
+# ไม่ต้องการให้โค้ดนี้รันตอน import เป็น module ดังนั้นเราจะไม่ใส่ code ที่รันอัตโนมัติที่นี่
 if __name__ == "__main__":
     # Define data path relative to project root
     DATA_FILE = "data/retail_store_sales.csv"
