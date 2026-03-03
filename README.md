@@ -1,2 +1,6 @@
-# Retail-ETL-Pipeline
-"An automated ETL pipeline cleaning 12k+ rows of retail data and loading into a PostgreSQL Star Schema."
+# Star-Schema-ETL-Postgres
+## What it does
+- Extracts 12K+ retail transactions from CSV
+- Transforms into dimension tables (dates, products, transactions)
+- Validates data quality (PK, FK, business rules)
+- Loads safely into PostgreSQL with rollback protection
