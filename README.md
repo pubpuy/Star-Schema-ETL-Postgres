@@ -187,4 +187,4 @@ Run the schema script sql/My_Schema.sql in DBeaver.
 
 Install dependencies: pip install -r requirements.txt
 
-Execute the pipeline: python src/load.py
+Execute the pipeline: python main.py
