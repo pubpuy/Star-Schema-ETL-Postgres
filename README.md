@@ -21,10 +21,11 @@ This project is an end-to-end **ETL (Extract, Transform, Load) Pipeline** design
 
 Raw CSV 12,575 rows (Extract) → Clean + Dimensional Schema (Transform) → Validate (Test) → PostgreSQL (load)
 
-<img width="511" height="208" alt="image" src="https://github.com/user-attachments/assets/89b89840-7898-4bc6-9e54-c8d19ef463b1" />
-<img width="501" height="103" alt="image" src="https://github.com/user-attachments/assets/287c7ce8-e63e-415f-b055-ca772a7a34dc" />
-<img width="505" height="284" alt="image" src="https://github.com/user-attachments/assets/df181dac-f438-475e-b5b4-c9d3070cbdd4" />
-<img width="740" height="885" alt="image" src="https://github.com/user-attachments/assets/b1715ba4-0e2a-45a0-8d13-15778634745f" />
+<img width="511" height="208" alt="image" src="https://github.com/user-attachments/assets/89b89840-7898-4bc6-9e54-c8d19ef463b1" /><br>
+<img width="501" height="103" alt="image" src="https://github.com/user-attachments/assets/287c7ce8-e63e-415f-b055-ca772a7a34dc" /><br>
+<img width="505" height="284" alt="image" src="https://github.com/user-attachments/assets/df181dac-f438-475e-b5b4-c9d3070cbdd4" /><br>
+<img width="740" height="885" alt="image" src="https://github.com/user-attachments/assets/b1715ba4-0e2a-45a0-8d13-15778634745f" /><br>
+
 
 
 
