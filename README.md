@@ -1,5 +1,5 @@
 ## 📌 Project Overview (What this project does)
-This project is an end-to-end **ETL (Extract, Transform, Load) Pipeline** designed to process raw, "dirty" retail sales data and load it into a structured Relational Database.
+This project is an end-to-end **ETL (Extract, Transform, Load) Pipeline** designed to process raw, "dirty" retail sales data and load it into a structured Relational Database, **enabling seamless SQL querying for deeper business insights and data-driven decision making**.
 
 ## 💡 Business Value (How does this project add value?)
 * **Single Source of Truth:** Transforms scattered and error-prone CSV files into a reliable, centralized database.
@@ -19,7 +19,7 @@ This project is an end-to-end **ETL (Extract, Transform, Load) Pipeline** design
 
 <img src="https://github.com/user-attachments/assets/465f2088-7ce2-426f-998c-fdeb376c6f6f" width="400">
 
-Raw CSV 12,575 rows (Extract) → Clean + Dimensional Schema (Transform) → Validate (Test) → PostgreSQL (load)
+**Raw CSV 12,575 rows (Extract) → Clean + Dimensional Schema (Transform) → Validate (Test) → PostgreSQL (load)**
 
 <img width="511" height="208" alt="image" src="https://github.com/user-attachments/assets/89b89840-7898-4bc6-9e54-c8d19ef463b1" /><br>
 <img width="501" height="103" alt="image" src="https://github.com/user-attachments/assets/287c7ce8-e63e-415f-b055-ca772a7a34dc" /><br>
@@ -46,7 +46,7 @@ The pipeline reads a raw dataset of ~12,500 rows and normalizes it into 3 tables
 
 
 ## 🧠 Data Engineering Decisions & Problem-Solving
-Decision 1: DROP NULL Items (9.6% Data Loss)
+**Decision 1: DROP NULL Items (9.6% Data Loss)**
 The Problem:
 From `retail_store_sales.csv`, I found ~1,213 rows (9.6%) where Item column is empty: 
 ```
@@ -81,7 +81,7 @@ Rationale:
 ✅ Impact: 11,362 verified rows remaining (acceptable)
 
 ---
-Decision 2: Recalculate Total_Spent (2.8% Data Discrepancies)
+**Decision 2: Recalculate Total_Spent (2.8% Data Discrepancies)**
 The Problem:
 Analyzing the CSV, I discovered calculation mismatches:
 
@@ -125,7 +125,7 @@ Rationale:
 ✅ Separation of Concerns: Extract = read raw, Transform = apply business logic
 
 ---
-Decision 3: Impute Discount_Applied NULL → FALSE
+**Decision 3: Impute Discount_Applied NULL → FALSE**
 The Problem:
 Looking at the data:
 
